@@ -5,6 +5,9 @@
 # the sum. This is what you'd consider to be a regular, normal function.
 
 # YOUR CODE HERE
+def f1(x,y):
+    print(int(x) + int(y))
+
 
 print(f1(1, 2))
 
@@ -13,6 +16,19 @@ print(f1(1, 2))
 # Note: Google for "python arbitrary arguments" and look for "*args"
 
 # YOUR CODE HERE
+# def f2(*args):
+    
+#     for i in args:
+#         0 += i
+#         print(i)
+
+# def f2(*args):
+#     total = sum(args)
+#     print(total)
+
+def f2(*args):
+    print(sum(args))
+    
 
 print(f2(1))                    # Should print 1
 print(f2(1, 3))                 # Should print 4
