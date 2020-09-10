@@ -30,3 +30,10 @@ it should use today’s date to get the month and year.
 import sys
 import calendar
 from datetime import datetime
+
+yy= 2020
+mm = 9
+print(calendar.calendar(2020))
+
+# print(calendar.weekheader(3))
+# userinput = input()
